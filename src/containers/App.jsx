@@ -20,9 +20,7 @@ body {
 `;
 //retornamos nuestra estructura
 const App = () => {
-    const data = api();
-    console.log(data);
-    return data.length == 0 ? <h1>Cargando ...</h1> : (
+    return (
         <Main>
             <GlobalStyle />
             <Sidebar>
